@@ -44,3 +44,50 @@ body {
 .link:hover {
     background-color: rgb(75, 114, 44);
 }
+
+.right-container {
+    float: right;
+    margin: 20px 200px 20px 0px;
+}
+
+img {
+    border-radius: 20px;
+    width: 680px;
+    height: auto;
+}
+
+.right-container a {
+    display: block;
+    border: 2px solid rgb(75, 114, 44);
+    border-radius: 20px;
+    background-color: rgb(144, 206, 93);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 1.5em;
+    font-size: 1.5em;
+    transition: 0.3s;
+
+}
+
+.right-container a:hover {
+    background-color: rgb(75, 114, 44);
+}
+
+.container {
+    background-color: rgb(144, 206, 93);
+    border-radius: 20px;
+    width: 700px;
+    padding: 1.5em;
+    margin: 20px 0px 20px 200px;
+    color: #FAFAFA;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
