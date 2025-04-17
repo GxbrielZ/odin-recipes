@@ -7,21 +7,21 @@ body {
     background-color: rgb(193, 238, 197);
 }
 
-h1 {
+.title-bar {
     background-color: rgb(144, 206, 93);
     text-align: center;
     padding: 0.5em;
     color: #FAFAFA;
 }
 
-ul {
+.links {
     list-style-type: none;
     width: 1200px;
     margin: 10% auto;
     text-align: center;
 }
 
-li {
+.link {
     display: inline-block;
     border: 2px solid rgb(75, 114, 44);
     border-radius: 20px;
@@ -33,7 +33,7 @@ li {
     transition: 0.3s;
 }
 
-li a {
+.link a {
     text-decoration: none;
     color: #FAFAFA;
     font-size: 1.5em;
@@ -41,6 +41,6 @@ li a {
 
 }
 
-li:hover {
+.link:hover {
     background-color: rgb(75, 114, 44);
 }
